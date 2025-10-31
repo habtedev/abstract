@@ -40,7 +40,7 @@ This project is a pixel-perfect, mobile-first UI clone of the Abstract Help Cent
 ## 📁 Project Structure
 
 ```
-abstract/
+abstract-clone/
 ├── index.html         # Main entry point
 ├── css/
 │   └── styles.css     # Mobile-first stylesheet

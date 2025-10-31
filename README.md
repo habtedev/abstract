@@ -1,33 +1,33 @@
-# Abstract Help Center — UI Clone
 
-This repository is a UI-only clone of the Abstract Help Center landing page. The goal is to reproduce the visual design using only HTML and CSS (mobile-first, responsive, and accessible).
+<div align="center">
+	<h1>🟣 Abstract Help Center — UI Clone</h1>
+	<p><em>Beautiful, responsive, and accessible UI clone of the Abstract Help Center landing page.</em></p>
+  
+	<a href="https://habtedev.github.io/abstract/" target="_blank" rel="noopener noreferrer">
+		<img src="https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen?style=for-the-badge&logo=google-chrome" alt="Live Demo" style="margin:16px 0;"/>
+	</a>
+  
+	<br>
+	<img src="images/screenhot1.png" alt="Abstract UI Clone Screenshot" width="350" style="margin-top:16px; border-radius:12px; box-shadow:0 2px 12px #0002;"/>
+</div>
 
-Project structure
+---
 
-```
-abstract/
-├── index.html            # entry page
-├── css/
-│   └── styles.css       # main stylesheet (mobile-first)
-# Abstract Help Center — UI Clone
+## 🌟 Overview
 
-A responsive, mobile-first UI clone of the Abstract Help Center landing page built with semantic HTML and modern CSS.
+This project is a pixel-perfect, mobile-first UI clone of the Abstract Help Center landing page, built with semantic HTML and modern CSS. It’s fully responsive, accessible, and deploys instantly on GitHub Pages.
 
-![Abstract UI Clone](images/screenhot1.png)
+> **Live Demo:** [🌐 https://habtedev.github.io/abstract/](https://habtedev.github.io/abstract/)
 
-## 🚀 Live Demo
 
-**Live Site:** https://habtedev.github.io/abstract/
-
-## 📋 Project Overview
-
-This project replicates the Abstract Help Center interface with a focus on:
+## 📋 Project Highlights
 
 - **Mobile-first responsive design**
 - **Accessibility** (WCAG guidelines)
 - **Semantic HTML structure**
 - **Clean, maintainable CSS**
 - **Cross-browser compatibility**
+
 
 ## 🛠 Tech Stack
 
@@ -36,23 +36,22 @@ This project replicates the Abstract Help Center interface with a focus on:
 - **Responsive Design** (mobile-first approach)
 - **No frameworks or build tools**
 
+
 ## 📁 Project Structure
 
 ```
-
 abstract/
-├── index.html # Main entry point
+├── index.html         # Main entry point
 ├── css/
-│ └── styles.css # Mobile-first stylesheet
-├── images/ # Assets directory
-│ ├── screenhot1.png # Mobile view
-│ ├── screenhot2.png # Tablet view
-│ ├── screenhot3.png # Desktop view
-│ └── screenhot4.png # Large screen view
-├── README.md # Project documentation
-└── REFLECTION.md # Development insights (250-500 words)
-
-````
+│   └── styles.css     # Mobile-first stylesheet
+├── images/            # Assets directory
+│   ├── screenhot1.png # Mobile view
+│   ├── screenhot2.png # Tablet view
+│   ├── screenhot3.png # Desktop view
+│   └── screenhot4.png # Large screen view
+├── README.md          # Project documentation
+└── REFLECTION.md      # Development insights
+```
 
 ## 🎯 Features
 
@@ -72,7 +71,7 @@ abstract/
 
 ### Local Development
 
-**Clone the repository**
+ **Clone the repository**
 
 ```bash
 git clone https://github.com/habtedev/abstract.git
@@ -81,17 +80,17 @@ cd abstract
 
 
 
- Open your browser and navigate to http://localhost:8000
+ 
 
 ## 📸 Screenshots
 
 Below are the included screenshots for quick reference.
 
-|                                                          |                                                      |
+|        Desktop View                                                   | Desktop View                                                         |
 | --------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | <img src="images/screenhot1.png" width="300" alt="Mobile screenshot"> | <img src="images/screenhot2.png" width="400" alt="Tablet screenshot"> |
 
-|                                                           |                                                             |
+| Desktop View                                                           | mobile Screen                                                                |
 | ---------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | <img src="images/screenhot3.png" width="500" alt="Desktop screenshot"> | <img src="images/screenhot4.png" width="600" alt="Large screen screenshot"> |
 

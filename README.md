@@ -45,11 +45,12 @@ abstract/
 ├── css/
 │ └── styles.css # Mobile-first stylesheet
 ├── images/ # Assets directory
-│ ├── screenhot1.png
-│ ├── screenhot2.png
-│ ├── screenhot3.png
-│ └── screenhot4.png
+│ ├── screenhot1.png # Mobile view
+│ ├── screenhot2.png # Tablet view
+│ ├── screenhot3.png # Desktop view
+│ └── screenhot4.png # Large screen view
 ├── README.md # Project documentation
+└── REFLECTION.md # Development insights (250-500 words)
 
 ````
 
@@ -62,7 +63,7 @@ abstract/
 - ✅ Cross-browser compatible
 - ✅ No JavaScript dependencies
 
-##  Quick Start
+## 🚀 Quick Start
 
 ### Prerequisites
 
@@ -71,26 +72,26 @@ abstract/
 
 ### Local Development
 
-. **Clone the repository**
+**Clone the repository**
 
 ```bash
 git clone https://github.com/habtedev/abstract.git
 cd abstract
 ````
 
-```
 
-. Open your browser and navigate to http://localhost:8000
+
+ Open your browser and navigate to http://localhost:8000
 
 ## 📸 Screenshots
 
 Below are the included screenshots for quick reference.
 
-|                                                                       |                                                                       |
+|                                                          |                                                      |
 | --------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | <img src="images/screenhot1.png" width="300" alt="Mobile screenshot"> | <img src="images/screenhot2.png" width="400" alt="Tablet screenshot"> |
 
-|                                                                        |                                                                             |
+|                                                           |                                                             |
 | ---------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | <img src="images/screenhot3.png" width="500" alt="Desktop screenshot"> | <img src="images/screenhot4.png" width="600" alt="Large screen screenshot"> |
 
@@ -114,9 +115,13 @@ Below are the included screenshots for quick reference.
 
 ### Updating Screenshots
 
-```
+```bash
+# Replace existing screenshot
+cp /path/to/new/image.png images/screenhot1.png
 
-````
+# Optimize PNG files (optional)
+pngquant --quality=70-90 --force --output images/screenhot1.png images/screenhot1.png
+```
 
 ### Git Commands
 
@@ -129,7 +134,7 @@ git commit -m "feat: improve responsive navigation"
 
 # Push to remote
 git push origin main
-````
+```
 
 ## 🌐 Deployment
 
